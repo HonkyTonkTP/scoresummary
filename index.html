@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="main grid border-radius">
+    <section class="score border-radius">
+      <h2 class="result-heading">Your Result</h2>
+      <div class="result">
+        <p class="points">76</p>
+        <p class="of-total">of 100</p>
+      </div>
+      <h3 class="overall-grade">Great</h3>
+      <p class="overall-score">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="summary">
+      <h2 class="summary-heading">Summary</h2>
+      <ul class="summary-list" aria-label="List of score per topic">
+        <li class="flex-item">
+          <h3 class="flex-heading reaction">Reaction</h3>
+          <span class="flex-text"><b class="bolded">80</b> / 100</span> 
+        </li>
+        <li class="flex-item">
+          <h3 class="flex-heading memory">Memory</h3>
+          <span class="flex-text"><b class="bolded">92</b> / 100</span>
+        </li>
+        <li class="flex-item">
+          <h3 class="flex-heading verbal">Verbal</h3>
+          <span class="flex-text"><b class="bolded">61</b> / 100</span>
+        </li>
+        <li class="flex-item">
+          <h3 class="flex-heading visual">Visual</h3>
+          <span class="flex-text"><b class="bolded">72</b>  / 100</span>
+        </li>
+      </ul>
+      <button class="continue-btn">Continue</button>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Tony Persson</a>.
+    </div>
+  </footer>
+</body>
+</html>
